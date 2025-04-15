@@ -2,7 +2,8 @@
 
 [![Last Commit](https://img.shields.io/github/last-commit/Acourages/MyPHP_Lab)](https://github.com/Acourages/MyPHP_Lab/commits/main)
 [![Open Issues](https://img.shields.io/github/issues/Acourages/MyPHP_Lab)](https://github.com/Acourages/MyPHP_Lab/issues)
-[![License](https://img.shields.io/github/license/Acourages/MyPHP_Lab)](LICENSE) ## ✨ Welcome!
+[![License](https://img.shields.io/github/license/Acourages/MyPHP_Lab)](LICENSE) 
+## ✨ Welcome!
 
 This repository contains the source code for my personal portfolio website, showcasing my skills and projects as a Junior Software Engineer. It's built with PHP for dynamic content and routing, styled with custom CSS, and features some interactive elements with JavaScript.
 
