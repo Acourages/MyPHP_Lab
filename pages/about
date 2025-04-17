@@ -1,0 +1,22 @@
+<section class="about-section section-padding" data-aos="fade-up">
+    <div class="container about-section-inner">
+        <h2 class="section-title" data-aos="fade-down">About Me</h2>
+        <p data-aos="fade-up" data-aos-delay="200">I'm Arshan Hosseinlar, a junior software engineer based in Dubai 🇦🇪. I am passionate about building innovative and user-friendly web applications.</p>
+        <p data-aos="fade-up" data-aos-delay="400">With a strong foundation in front-end and back-end development, I am eager to contribute my skills to challenging projects and learn from experienced professionals.</p>
+    </div>
+</section>
+
+<section class="skills-section section-padding" data-aos="fade-up" data-aos-delay="600">
+    <div class="container skills-section-inner">
+        <h3 class="section-subtitle" data-aos="fade-down">My Skills</h3>
+        <ul class="skills-list">
+            <li data-aos="zoom-in" data-aos-delay="100">HTML5</li>
+            <li data-aos="zoom-in" data-aos-delay="200">CSS3</li>
+            <li data-aos="zoom-in" data-aos-delay="300">JavaScript</li>
+            <li data-aos="zoom-in" data-aos-delay="400">PHP</li>
+            <li data-aos="zoom-in" data-aos-delay="500">Python</li>
+            <li data-aos="zoom-in" data-aos-delay="600">SQL</li>
+            <li data-aos="zoom-in" data-aos-delay="700">Git & Version Control</li>
+        </ul>
+    </div>
+</section>
