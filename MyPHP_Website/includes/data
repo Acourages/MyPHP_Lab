@@ -1,0 +1,23 @@
+<?php
+$projects = [
+    [
+        'title' => 'Project One',
+        'image' => 'assets/images/project1.jpg',
+        'link' => '#',
+        'description' => 'A brief description of Project One.'
+    ],
+    [
+        'title' => 'Awesome App',
+        'image' => 'assets/images/project2.png',
+        'link' => 'https://example.com/app',
+        'description' => 'A mobile application for productivity.'
+    ],
+    [
+        'title' => 'Website Design',
+        'image' => 'assets/images/project3.gif',
+        'link' => '#',
+        'description' => 'A modern and responsive website design.'
+    ],
+    // Add more projects here
+];
+?>
