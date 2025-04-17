@@ -1,0 +1,7 @@
+<section class="hero-section">
+    <div class="container hero-section-inner">
+        <h2 data-aos="fade-down" data-aos-duration="1000">Hello, I'm Arshan</h2>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">A Junior Software Engineer with a passion for creating beautiful and functional web experiences.</p>
+        <a href="?page=projects" class="button hero-button" data-aos="zoom-in" data-aos-delay="400">Explore My Work</a>
+    </div>
+</section>
