@@ -1,0 +1,22 @@
+<?php include 'C:\xampp\htdocs\PHP_website\includes\data.php'; ?>
+
+<section class="projects-section section-padding">
+    <div class="container projects-section-inner">
+        <h2 class="section-title" data-aos="fade-down">My Projects</h2>
+
+        <div class="project-grid">
+            <?php if (!empty($projects)): ?>
+                <?php foreach ($projects as $project): ?>
+                    <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="project-image" style="background-image: url('<?= $project['image'] ?>')"></div>
+                        <h3 class="project-title"><?= $project['title'] ?></h3>
+                        <p class="project-description"><?= $project['description'] ?? 'A brief description of the project.' ?></p>
+                        <a href="<?= $project['link'] ?>" class="button project-link">View Project</a>
+                    </div>
+                <?php endforeach; ?>
+            <?php else: ?>
+                <p>No projects available yet.</p>
+            <?php endif; ?>
+        </div>
+    </div>
+</section>
