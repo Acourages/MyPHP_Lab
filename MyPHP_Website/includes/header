@@ -1,0 +1,19 @@
+<?php defined('INDEX') or die('Direct access denied'); ?>
+<header class="site-header">
+    <div class="container site-header-inner">
+        <h1 class="site-logo">Arshan</h1>
+        <nav class="site-nav">
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="site-nav-list">
+                <li class="site-nav-item"><a href="?page=home" class="site-nav-link <?= $page === 'home' ? 'active' : '' ?>">Home</a></li>
+                <li class="site-nav-item"><a href="?page=projects" class="site-nav-link <?= $page === 'projects' ? 'active' : '' ?>">Projects</a></li>
+                <li class="site-nav-item"><a href="?page=contact" class="site-nav-link <?= $page === 'contact' ? 'active' : '' ?>">Contact</a></li>
+                <li class="site-nav-item"><a href="?page=about" class="site-nav-link <?= $page === 'about' ? 'active' : '' ?>">About</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
