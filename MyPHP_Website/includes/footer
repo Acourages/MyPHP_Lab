@@ -1,0 +1,10 @@
+<?php defined('INDEX') or die('Direct access denied'); ?>
+<footer class="site-footer">
+    <div class="container site-footer-inner">
+        <p>&copy; <?= date('Y') ?> Arshan Hosseinlar</p>
+        <div class="social-links">
+            <a href="#" target="_blank"><img src="assets/svg/linkedin.svg" alt="LinkedIn"></a>
+            <a href="#" target="_blank"><img src="assets/svg/github.svg" alt="GitHub"></a>
+        </div>
+    </div>
+</footer>
